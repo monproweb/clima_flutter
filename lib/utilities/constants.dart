@@ -1,18 +1,19 @@
 import 'package:flutter/material.dart';
+import 'package:yaru/yaru.dart' as yaru;
 
 const kTempTextStyle = TextStyle(
-  fontFamily: 'Spartan MB',
-  fontSize: 100.0,
+  fontFamily: 'Ubuntu',
+  fontSize: 60.0,
 );
 
 const kMessageTextStyle = TextStyle(
-  fontFamily: 'Spartan MB',
+  fontFamily: 'Ubuntu',
   fontSize: 60.0,
 );
 
 const kButtonTextStyle = TextStyle(
   fontSize: 30.0,
-  fontFamily: 'Spartan MB',
+  fontFamily: 'Ubuntu',
 );
 
 const kConditionTextStyle = TextStyle(
@@ -28,7 +29,7 @@ const kTextFieldInputDecoration = InputDecoration(
   ),
   hintText: 'Enter City Name',
   hintStyle: TextStyle(
-    color: Colors.grey,
+    color: yaru.Colors.textGrey,
   ),
   border: OutlineInputBorder(
     borderRadius: BorderRadius.all(

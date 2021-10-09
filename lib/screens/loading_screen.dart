@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'location_screen.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:clima/services/weather.dart';
+import 'package:yaru/yaru.dart' as yaru;
 
 class LoadingScreen extends StatefulWidget {
   @override
@@ -32,7 +33,7 @@ class _LoadingScreenState extends State<LoadingScreen> {
     return Scaffold(
       body: Center(
         child: SpinKitDoubleBounce(
-          color: Colors.white,
+          color: yaru.Colors.orange,
           size: 100.0,
         ),
       ),
